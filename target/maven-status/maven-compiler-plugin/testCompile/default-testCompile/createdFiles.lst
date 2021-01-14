@@ -1,0 +1,7 @@
+page\CookPage.class
+page\OrderPage.class
+steps\StepsDefinition.class
+steps\RunTest.class
+page\BasePage.class
+page\LoginPage.class
+test\TestBase.class
