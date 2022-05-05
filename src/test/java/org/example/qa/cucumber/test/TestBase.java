@@ -18,11 +18,6 @@ public class TestBase {
 
     public void start() {
 
-//        StringBuilder pathToDriver = new StringBuilder(Paths.get(".").toAbsolutePath().normalize().toString());
-//        String fileSeparator = File.separator;
-//        pathToDriver.append(fileSeparator).append("drivers").append(fileSeparator).append("geckodriver.exe");
-//
-//        System.setProperty("webdriver.gecko.driver", pathToDriver.toString());
         WebDriverManager.firefoxdriver().setup();
 
         FirefoxOptions options = new FirefoxOptions();

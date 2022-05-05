@@ -24,7 +24,6 @@
         <logback.version>1.2.10</logback.version>
     </properties>
 
-
     <build>
         <plugins>
             <plugin>
@@ -93,7 +92,6 @@
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
             <version>${logback.version}</version>
-            <scope>org.example.qa.cucumber.test</scope>
         </dependency>
     </dependencies>
 </project>
